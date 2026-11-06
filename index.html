@@ -124,8 +124,8 @@
 
   const timeEl = $("time"), panel = $("panel");
   let total = 0, remaining = 0, endAt = 0, running = false;
-  // Live mode: everyone counts down to the same moment (8:15 PM Pacific, Nov 5 2026).
-  const TARGET = Date.parse("2026-11-05T20:15:00-08:00");
+  // Live mode: everyone counts down to the same moment (8:00 PM Pacific, Nov 5 2026).
+  const TARGET = Date.parse("2026-11-05T20:00:00-08:00");
   let live = true;
 
   function apply() {
