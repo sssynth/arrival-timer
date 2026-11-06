@@ -149,6 +149,7 @@
       if (done) timeEl.textContent = txt;
     }
     timeEl.classList.toggle("done", done);
+    $("promise").hidden = done;
     timeEl.classList.toggle("paused", !running && !done);
       document.title = done ? "Arrival Timer" : "Arrival Timer · " + fmt(remaining);
   }
